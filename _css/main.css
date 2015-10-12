@@ -1,1 +1,127 @@
 /* css */
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+    background-image:url("http://i.ytimg.com/vi/0Suprl56Owg/maxresdefault.jpg");
+}
+
+#header{
+    background-color:gray;
+    padding:0px;
+    color:white;
+}
+
+h1{
+    margin:0px;
+    padding:20px 40px 20px 40px;
+    font-family:verdana;
+    font-size:60pt;
+}
+
+h2, h3{
+    font-family:arial;
+}
+
+.spotlight {
+    background-color:pink;
+    padding:20px;
+}
+
+#page {
+    margin:40px 80px 40px 80px;
+}
+/* navigation */
+#nav, #nav a{
+    background-color:#ccc;     /*this sets the background color to gray*/
+    padding:10px;
+}
+
+#nav {
+    padding-left:40px;
+}
+
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;     /*this removes text decoration from text*/
+    transition:background-color 2s,color 2s;     /*this transitions the background color within 2s*/
+}
+
+#nav a:hover {
+    background-color:#aaaaff;     /*this sets the background color to purple*/
+    color:white;
+    transition:color 2s,     /*this transitions the background color within 2s*/
+}
+
+#content {
+    padding:20px 40px 20px 40px;
+    background-color:#eee;     /*this sets the background color to light gray*/
+    margin:0px;
+}
+
+#footer {
+    padding:20px 40px 20px 40px;
+    background-color:black;     /*this sets the background color to black*/ 
+    margin:0px;
+    color:white;
+    text-decoration:none;
+}
+
+a {
+    text-decoration:none;
+}
+
+h1,h2,h3 {
+    font-family:arial;
+}
+/*
+#header{
+    background-color:gray;
+    width:400px;
+    padding:20px;
+    color:white;
+}
+
+#header:hover{
+    background-color:pink;
+    width:200px;
+    color:black;
+    transition:width 2s,background-color 2s,color 2s;
+}
+
+#header h2{
+    background-color:#6666ff;
+    padding:9px;
+}
+
+#header h2:hover{
+    background-color:green;
+    font-size:70px;
+    width:200px;
+    color:black;
+    transition:width 2s,background-color 2s,color 2s;
+    transition:width 2s,font-size 2s,color 2s;
+}
+
+#content{
+    background-color:red;
+    width:400px;
+}
+
+#content:hover{
+    background-color:orange;
+    transition:background-color 2s;
+}
+
+#footer{
+    background-color:yellow;
+    width:400px;
+}
+
+#footer:hover{
+    background-color:green;
+    transition:background-color 2s;
+}
+*/
